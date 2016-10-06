@@ -1,0 +1,123 @@
+﻿Build started 2016-10-05 9:51:04 PM.
+     1>Project "D:\Projects\LoopSweeper\Source\Platformer\LoopSweeper.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\Debug\) contains files shared from another project (Platformer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\porttime /I..\pm_common /I..\GameEngine\GameEngine\Inc /I.\Inc /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TP /wd4100 /analyze- /errorReport:prompt ..\GameEngine\GameEngine\Src\Actor.cpp ..\GameEngine\GameEngine\Src\Camera.cpp ..\GameEngine\GameEngine\Src\CameraManager.cpp ..\GameEngine\GameEngine\Src\Collision.cpp ..\GameEngine\GameEngine\Src\CoopCamera.cpp ..\GameEngine\GameEngine\Src\DebugCamera.cpp ..\GameEngine\GameEngine\Src\DebugPrint.cpp ..\GameEngine\GameEngine\Src\DebugTrace.cpp ..\GameEngine\GameEngine\Src\DynamicActor.cpp ..\GameEngine\GameEngine\Src\FileReader.cpp ..\GameEngine\GameEngine\Src\FileSerializer.cpp ..\GameEngine\GameEngine\Src\GameEngine.cpp ..\GameEngine\GameEngine\Src\Gamepad.cpp ..\GameEngine\GameEngine\Src\GameSettings.cpp ..\GameEngine\GameEngine\Src\Input.cpp ..\GameEngine\GameEngine\Src\Keyboard.cpp ..\GameEngine\GameEngine\Src\Level.cpp ..\GameEngine\GameEngine\Src\LookAtCamera.cpp ..\GameEngine\GameEngine\Src\Mouse.cpp ..\GameEngine\GameEngine\Src\PlayerCamera.cpp ..\GameEngine\GameEngine\Src\Reflectable.cpp ..\GameEngine\GameEngine\Src\ReflectableEditor.cpp ..\GameEngine\GameEngine\Src\Render2d.cpp ..\GameEngine\GameEngine\Src\Serializer.cpp ..\GameEngine\GameEngine\Src\Sprite.cpp ..\GameEngine\GameEngine\Src\SpriteInfo.cpp ..\GameEngine\GameEngine\Src\SpriteManager.cpp ..\GameEngine\GameEngine\Src\TextParser.cpp ..\GameEngine\GameEngine\Src\TextureManager.cpp ..\GameEngine\GameEngine\Src\TileMap.cpp ..\GameEngine\GameEngine\Src\TileSet.cpp ..\GameEngine\GameEngine\Src\TileSetBitmap.cpp ..\GameEngine\GameEngine\Src\TileSetList.cpp ..\GameEngine\GameEngine\Src\TileSetMapping.cpp ..\GameEngine\GameEngine\Src\TransitionCamera.cpp ..\GameEngine\GameEngine\Src\Vector2d.cpp ..\GameEngine\GameEngine\Src\View.cpp ..\GameEngine\GameEngine\Src\World.cpp Src\AudioDevice.cpp Src\Cell.cpp Src\EditorOption.cpp Src\Instrument.cpp Src\InstrumentManager.cpp Src\LoopBoard.cpp Src\LoopTimer.cpp Src\PopupManager.cpp Src\Window.cpp Src\Workspace.cpp Src\main.cpp
+         Actor.cpp
+         Camera.cpp
+         CameraManager.cpp
+         Collision.cpp
+         CoopCamera.cpp
+         DebugCamera.cpp
+         DebugPrint.cpp
+         DebugTrace.cpp
+         DynamicActor.cpp
+         FileReader.cpp
+         FileSerializer.cpp
+         GameEngine.cpp
+         Gamepad.cpp
+         GameSettings.cpp
+         Input.cpp
+         Keyboard.cpp
+         Level.cpp
+         LookAtCamera.cpp
+         Mouse.cpp
+         PlayerCamera.cpp
+         Generating Code...
+         Compiling...
+         Reflectable.cpp
+         ReflectableEditor.cpp
+         Render2d.cpp
+         Serializer.cpp
+         Sprite.cpp
+         SpriteInfo.cpp
+         SpriteManager.cpp
+         TextParser.cpp
+         TextureManager.cpp
+         TileMap.cpp
+         TileSet.cpp
+         TileSetBitmap.cpp
+         TileSetList.cpp
+         TileSetMapping.cpp
+         TransitionCamera.cpp
+         Vector2d.cpp
+         View.cpp
+         World.cpp
+         AudioDevice.cpp
+         Cell.cpp
+     1>Src\Cell.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         EditorOption.cpp
+         Instrument.cpp
+     1>Src\Instrument.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+     1>Src\Instrument.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+         InstrumentManager.cpp
+         LoopBoard.cpp
+     1>Src\LoopBoard.cpp(30): warning C4244: 'argument' : conversion from 'int' to 'const FLOAT', possible loss of data
+         LoopTimer.cpp
+         PopupManager.cpp
+     1>Src\PopupManager.cpp(38): warning C4244: 'argument' : conversion from 'FLOAT' to 'int', possible loss of data
+         Window.cpp
+         Workspace.cpp
+         main.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x1009" /nologo /fo".\Debug\Resource.res" Resource.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/LoopSweeper.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\Debug /LIBPATH:..\GameEngine\GameEngine\Debug opengl32.lib glu32.lib odbc32.lib odbccp32.lib dxguid.lib dinput8.lib comctl32.lib ..\Debug\portmidi_s.lib winmm.lib fmod_vc.lib fmodL_vc.lib fmod64_vc.lib fmodL64_vc.lib fmodstudio_vc.lib fmodstudioL_vc.lib fmodstudio64_vc.lib fmodstudioL64_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:MSVCRTD /NODEFAULTLIB:MSVCP90D /NODEFAULTLIB:msvcprtd /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/BlankGame.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\LoopSweeper.lib" /MACHINE:X86 /SAFESEH .\Debug\Resource.res
+         .\Debug/Actor.obj
+         .\Debug/Camera.obj
+         .\Debug/CameraManager.obj
+         .\Debug/Collision.obj
+         .\Debug/CoopCamera.obj
+         .\Debug/DebugCamera.obj
+         .\Debug/DebugPrint.obj
+         .\Debug/DebugTrace.obj
+         .\Debug/DynamicActor.obj
+         .\Debug/FileReader.obj
+         .\Debug/FileSerializer.obj
+         .\Debug/GameEngine.obj
+         .\Debug/Gamepad.obj
+         .\Debug/GameSettings.obj
+         .\Debug/Input.obj
+         .\Debug/Keyboard.obj
+         .\Debug/Level.obj
+         .\Debug/LookAtCamera.obj
+         .\Debug/Mouse.obj
+         .\Debug/PlayerCamera.obj
+         .\Debug/Reflectable.obj
+         .\Debug/ReflectableEditor.obj
+         .\Debug/Render2d.obj
+         .\Debug/Serializer.obj
+         .\Debug/Sprite.obj
+         .\Debug/SpriteInfo.obj
+         .\Debug/SpriteManager.obj
+         .\Debug/TextParser.obj
+         .\Debug/TextureManager.obj
+         .\Debug/TileMap.obj
+         .\Debug/TileSet.obj
+         .\Debug/TileSetBitmap.obj
+         .\Debug/TileSetList.obj
+         .\Debug/TileSetMapping.obj
+         .\Debug/TransitionCamera.obj
+         .\Debug/Vector2d.obj
+         .\Debug/View.obj
+         .\Debug/World.obj
+         .\Debug/AudioDevice.obj
+         .\Debug/Cell.obj
+         .\Debug/EditorOption.obj
+         .\Debug/Instrument.obj
+         .\Debug/InstrumentManager.obj
+         .\Debug/LoopBoard.obj
+         .\Debug/LoopTimer.obj
+         .\Debug/PopupManager.obj
+         .\Debug/Window.obj
+         .\Debug/Workspace.obj
+         .\Debug/main.obj
+         LoopSweeper.vcxproj -> D:\Projects\LoopSweeper\Source\Platformer\.\Debug\LoopSweeper.exe
+     1>Done Building Project "D:\Projects\LoopSweeper\Source\Platformer\LoopSweeper.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:45.54
